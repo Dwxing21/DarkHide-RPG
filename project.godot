@@ -1,0 +1,24 @@
+; DARKHIDE - Godot Project Config
+
+config_version=5
+
+[application]
+
+config/name="DARKHIDE"
+run/main_scene="res://scenes/Main.tscn"
+config/features=PackedStringArray("4.3")
+config/icon="res://icon.png"
+
+[autoload]
+
+GameState="*res://scripts/GameState.gd"
+
+[display]
+
+window/size/viewport_width=1152
+window/size/viewport_height=648
+window/size/window_width_override=1280
+window/size/window_height_override=720
+window/stretch/mode="canvas_items"
+window/stretch/aspect="expand"
+window/handheld/orientation="portrait"

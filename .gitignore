@@ -1,0 +1,10 @@
+# Godot 4 ignores
+.godot/
+.import/
+export.cfg
+builds/
+
+# Linux/Editor junk
+*.tmp
+*.bak
+.DS_Store
